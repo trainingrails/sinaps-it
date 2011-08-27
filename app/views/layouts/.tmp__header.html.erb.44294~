@@ -8,16 +8,15 @@
 </h3>
 <ul>
 <li><%= link_to 'Новости', root_path %></li>
-<li><%= link_to 'Услуги', services_path %></li>
-<li><%= link_to 'online-заказ', order_path %></li>
-<li><%= link_to 'Контакты', contacts_path %></li>
-<li><%= link_to 'Помощь', help_path %></li>
+<li><%= link_to 'Услуги', '#' %></li>
+<li><%= link_to 'online-заказ', '#' %></li>
+<li><%= link_to 'Контакты', '#' %></li>
+<li><%= link_to 'Помощь', '#' %></li>
 </ul>
-<!--maybe make win apps?-->
+
 <ul class="nav secondary-nav">
 <li><%= link_to 'Win', '#' %></li>
 </ul>
-<!--end-->
    </div>
   </div>
 </div>

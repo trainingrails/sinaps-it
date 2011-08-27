@@ -1,6 +1,12 @@
 SinapsIt::Application.routes.draw do
 
   root :to => 'pages#home'
+  
+  match '/services' => 'pages#services'
+  match '/order' => 'pages#orders'
+  match '/contacts' => 'pages#contact'
+  match '/help' => 'pages#help'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
